@@ -1,0 +1,73 @@
+/* index.css */
+
+/* 1. TAILWIND DIRECTIVES (Must be at the very top) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. CUSTOM STYLES (Moved from index.html's <style> block) */
+
+/* NOTE: We removed the body { background-color: ... } rule to avoid conflict with Tailwind's bg-dark class on the <body> tag. */
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a; 
+}
+::-webkit-scrollbar-thumb {
+  background: #333; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6; 
+}
+
+/* Minimal Grid Background Animation */
+.bg-grid-pattern {
+  background-image: linear-gradient(to right, #2d3748 1px, transparent 1px),
+                    linear-gradient(to bottom, #2d3748 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+}
+
+/* Minimal Corner Accents */
+.corner-border {
+  position: relative;
+}
+.corner-border::before,
+.corner-border::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-color: #3b82f6; /* Primary Blue */
+  transition: all 0.3s ease;
+  opacity: 0.5;
+}
+
+/* Top Left & Bottom Right */
+.corner-border::before {
+  top: 0;
+  left: 0;
+  border-top: 2px solid;
+  border-left: 2px solid;
+}
+.corner-border::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+/* Tech Logo Glow Effect - Active by default */
+.tech-glow {
+  filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.5)); /* Blue Glow */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Zoom out on hover */
+.tech-item:hover .tech-glow {
+  transform: scale(0.85);
+  filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8));
+}
