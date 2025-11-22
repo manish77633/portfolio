@@ -33,16 +33,24 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-40 w-full bg-dark/80 backdrop-blur-md border-b border-white/5 dark:bg-dark/90 bg-white/90 dark:border-white/5 border-black/5 transition-colors duration-300">
       <div className="container mx-auto px-6 h-20 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="text-2xl font-bold text-dark dark:text-white tracking-tight group">
-          Manish<span className="text-primary">.</span>
-        </a>
-
+       <a href="#hero" className="text-2xl font-bold tracking-tight group">
+  {/* Opening angle bracket in primary color */}
+  <span className="text-primary">&lt; </span>
+  
+  {/* Name in standard text color (dark/white for dark mode) */}
+  <span className="text-dark dark:text-white"> &nbsp;Manish&nbsp; </span>
+  
+  {/* Closing slash and angle bracket in primary color */}
+  <span className="text-primary">/&gt;</span>
+</a>
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           {NAV_LINKS.map((link) => (
             <a 
               key={link.name} 
               href={link.href} 
+              // ADD THIS LOGIC to apply the download attribute
+              {...(link.download !== undefined && { download: link.download || link.name + '.pdf' })}
               className="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-white transition-colors relative group py-2"
             >
               {link.name}
@@ -85,6 +93,7 @@ const Header: React.FC = () => {
             <a 
               key={link.name} 
               href={link.href}
+              {...(link.download !== undefined && { download: link.download || link.name + '.pdf' })}
               className="block px-8 py-5 text-lg font-medium text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/5 transition-all border-l-2 border-transparent hover:border-primary"
               onClick={() => setIsOpen(false)}
             >

@@ -5,6 +5,7 @@ export const NAV_LINKS = [
   { name: 'Education', href: '#experience' },
   { name: 'Projects', href: '#projects' },
   { name: 'Contact', href: '#contact' },
+  { name: 'Resume', href: '/Manish_Kumar_Resume.pdf', download: ''},
 ];
 
 export const SKILLS = [
@@ -17,7 +18,13 @@ export const SKILLS = [
   { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
   { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
   { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-  { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" }
+  { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+  
+  // New MERN-stack and GitHub skills added below:
+  { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+  { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+  { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+  { name: "Express", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" }
 ];
 
 export const PROJECTS: Project[] = [
@@ -42,9 +49,9 @@ export const PROJECTS: Project[] = [
   {
     id: 3,
     title: "ATM Management System",
-    description: "A robust console-based banking system...",
+    description: "A robust console-based banking system using oops concept implements features like withdrawal, deposit, balance etc. Intigrated file handling for persistent data storage",
     technologies: ["C++", "OOP", "File Handling", "Auth"],
-    imageUrl: "https://googleusercontent.com/image_collection/image_retrieval/6530429226858656082",
+    imageUrl: "https://images.unsplash.com/photo-1710149459994-480e2b5c3b16?q=80&w=1197&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     githubUrl: "https://github.com/manish77633",
     liveUrl: ""
   }
