@@ -38,7 +38,16 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://wanderlust-k2io.onrender.com/listings"
   },
   {
-    id: 2,
+    id: 2, // Id check kar lena sequence ke hisaab se
+    title: "Zerodha Clone (onworking)",
+    description: "A comprehensive stock trading platform clone featuring a professional landing page and a functional trading dashboard. Includes real-time data visualization for holdings/positions, user authentication, and a complete order management system. Built for high performance and responsiveness.",
+    technologies: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS", "Axios"],
+    imageUrl: "https://zerodha.com/static/images/products-kite.png", // Stock Market professional image
+    githubUrl: "https://github.com/manish77633/Zerodha",
+    liveUrl: "https://zerodha-375eo5zg1-manishs-projects-e32ba696.vercel.app/"
+},
+  {
+    id: 3,
     title: "Arihant Marble House",
     description: "A professional business website designed for a marble and granite supplier. Developed using WordPress with custom HTML/CSS/JS for specific interactive elements.",
     technologies: ["WordPress", "HTML", "CSS", "JavaScript"],
@@ -47,7 +56,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://arihantmarblehouse.com/"
   },
   {
-    id: 3,
+    id: 4,
     title: "ATM Management System",
     description: "A robust console-based banking system using oops concept implements features like withdrawal, deposit, balance etc. Intigrated file handling for persistent data storage",
     technologies: ["C++", "OOP", "File Handling", "Auth"],
