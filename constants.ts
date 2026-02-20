@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
   description: "A high-end fashion e-commerce platform featuring a sleek UI, secure Razorpay payment integration, and Google OAuth. Includes a fully functional admin dashboard for product management, real-time cart updates with Redux Toolkit, and persistent user sessions.",
   technologies: ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit", "Tailwind CSS", "Razorpay"],
   imageUrl: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop", 
-  githubUrl: "https://github.com/manish77633/velour-mern", // Apna asli repo link check kar lena
+  githubUrl: "https://github.com/manish77633/Velour-", // Apna asli repo link check kar lena
   liveUrl: "https://velour-virid.vercel.app"
 },
   {
