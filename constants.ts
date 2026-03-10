@@ -1,3 +1,4 @@
+import { url } from 'inspector';
 import { Project, Experience } from './types';
 
 export const NAV_LINKS = [
@@ -29,16 +30,25 @@ export const SKILLS = [
 
 export const PROJECTS: Project[] = [
   {
-  id: 1, // Ya jo bhi next ID ho
+  id: 1,
+  title: "Aurelia Luxe - Full-Stack E-commerce",
+  description: "A dynamic MERN stack e-commerce platform featuring advanced multi-level category filtering and an interactive multi-angle product image gallery. Designed with scalable MongoDB schemas for robust inventory management.",
+  technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+  imageUrl: "/assets/aurelia-home.png",
+  githubUrl: "https://github.com/manish77633/aurelia",
+  liveUrl: "https://aurelia-beryl.vercel.app" 
+},
+  { 
+  id: 2, // Ya jo bhi next ID ho
   title: "Velour - Premium E-commerce",
   description: "A high-end fashion e-commerce platform featuring a sleek UI, secure Razorpay payment integration, and Google OAuth. Includes a fully functional admin dashboard for product management, real-time cart updates with Redux Toolkit, and persistent user sessions.",
   technologies: ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit", "Tailwind CSS", "Razorpay"],
-  imageUrl: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop", 
+  imageUrl: "/assets/velour-home.png", 
   githubUrl: "https://github.com/manish77633/Velour-", // Apna asli repo link check kar lena
   liveUrl: "https://velour-virid.vercel.app"
 },
   {
-    id: 2,
+    id: 3,
     title: "Wanderlust",
     description: "A full-stack Airbnb-inspired accommodation booking platform. Features include listing creation, map integration, user authentication, and booking management. Built with the MERN stack.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
@@ -47,7 +57,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://wanderlust-k2io.onrender.com/listings"
   },
   {
-    id: 3, // Id check kar lena sequence ke hisaab se
+    id: 4, // Id check kar lena sequence ke hisaab se
     title: "Zerodha Clone (onworking)",
     description: "A comprehensive stock trading platform clone featuring a professional landing page and a functional trading dashboard. Includes real-time data visualization for holdings/positions, user authentication, and a complete order management system. Built for high performance and responsiveness.",
     technologies: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS", "Axios"],
@@ -56,7 +66,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://zerodha-375eo5zg1-manishs-projects-e32ba696.vercel.app/"
 },
   {
-    id: 4,
+    id: 5,
     title: "Arihant Marble House",
     description: "A professional business website designed for a marble and granite supplier. Developed using WordPress with custom HTML/CSS/JS for specific interactive elements.",
     technologies: ["WordPress", "HTML", "CSS", "JavaScript"],
@@ -65,7 +75,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://arihantmarblehouse.com/"
   },
   {
-    id: 5,
+    id: 6,
     title: "ATM Management System",
     description: "A robust console-based banking system using oops concept implements features like withdrawal, deposit, balance etc. Intigrated file handling for persistent data storage",
     technologies: ["C++", "OOP", "File Handling", "Auth"],
