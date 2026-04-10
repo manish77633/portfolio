@@ -6,7 +6,7 @@ export const NAV_LINKS = [
   { name: 'Education', href: '#experience' },
   { name: 'Projects', href: '#projects' },
   { name: 'Contact', href: '#contact' },
-  { name: 'Resume', href: '/Manish_Kumar_Resume.pdf', download: ''},
+  { name: 'Resume', href: '/Manish_Kumar_Resume.pdf', download: '' },
 ];
 
 export const SKILLS = [
@@ -20,7 +20,7 @@ export const SKILLS = [
   { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
   { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
-  
+
   // New MERN-stack and GitHub skills added below:
   { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
   { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
@@ -30,25 +30,34 @@ export const SKILLS = [
 
 export const PROJECTS: Project[] = [
   {
-  id: 1,
-  title: "Aurelia Luxe - Full-Stack E-commerce",
-  description: "A dynamic MERN stack e-commerce platform featuring advanced multi-level category filtering and an interactive multi-angle product image gallery. Designed with scalable MongoDB schemas for robust inventory management.",
-  technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
-  imageUrl: "/assets/aurelia-home.png",
-  githubUrl: "https://github.com/manish77633/aurelia",
-  liveUrl: "https://aurelia-beryl.vercel.app" 
-},
-  { 
-  id: 2, // Ya jo bhi next ID ho
-  title: "Velour - Premium E-commerce",
-  description: "A high-end fashion e-commerce platform featuring a sleek UI, secure Razorpay payment integration, and Google OAuth. Includes a fully functional admin dashboard for product management, real-time cart updates with Redux Toolkit, and persistent user sessions.",
-  technologies: ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit", "Tailwind CSS", "Razorpay"],
-  imageUrl: "/assets/velour-home.png", 
-  githubUrl: "https://github.com/manish77633/Velour-", // Apna asli repo link check kar lena
-  liveUrl: "https://velour-virid.vercel.app"
-},
+    id: 1,
+    title: "Aurelia Luxe - Full-Stack E-commerce",
+    description: "A dynamic MERN stack e-commerce platform featuring advanced multi-level category filtering and an interactive multi-angle product image gallery. Designed with scalable MongoDB schemas for robust inventory management.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+    imageUrl: "/assets/aurelia-home.png",
+    githubUrl: "https://github.com/manish77633/aurelia",
+    liveUrl: "https://aurelia-beryl.vercel.app"
+  },
+  {
+    id: 2, // Ya jo bhi next ID ho
+    title: "Velour - Premium E-commerce",
+    description: "A high-end fashion e-commerce platform featuring a sleek UI, secure Razorpay payment integration, and Google OAuth. Includes a fully functional admin dashboard for product management, real-time cart updates with Redux Toolkit, and persistent user sessions.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit", "Tailwind CSS", "Razorpay"],
+    imageUrl: "/assets/velour-home.png",
+    githubUrl: "https://github.com/manish77633/Velour-", // Apna asli repo link check kar lena
+    liveUrl: "https://velour-virid.vercel.app"
+  },
   {
     id: 3,
+    title: "Mockify AI",
+    description: "A production-grade SaaS platform for generating deterministic mock API endpoints. Features sub-12ms latency using smart edge-caching and context-aware dataset generation with LLM integration. Includes a premium dashboard with custom schema builders and real-time monitoring.",
+    technologies: ["React", "Node.js", "MongoDB", "Gemini/Llama API", "Framer Motion", "Tailwind CSS"],
+    imageUrl: "./assets/mokify.png",
+    githubUrl: "https://github.com/manish77633/mockify-ai",
+    liveUrl: "https://mockify-ai-f2ol.vercel.app/"
+  },
+  {
+    id: 4,
     title: "Wanderlust",
     description: "A full-stack Airbnb-inspired accommodation booking platform. Features include listing creation, map integration, user authentication, and booking management. Built with the MERN stack.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
@@ -56,17 +65,18 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/manish77633/wanderlust",
     liveUrl: "https://wanderlust-k2io.onrender.com/listings"
   },
+
   {
-    id: 4, // Id check kar lena sequence ke hisaab se
+    id: 5, // Id check kar lena sequence ke hisaab se
     title: "Zerodha Clone (onworking)",
     description: "A comprehensive stock trading platform clone featuring a professional landing page and a functional trading dashboard. Includes real-time data visualization for holdings/positions, user authentication, and a complete order management system. Built for high performance and responsiveness.",
     technologies: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS", "Axios"],
     imageUrl: "https://zerodha.com/static/images/products-kite.png", // Stock Market professional image
     githubUrl: "https://github.com/manish77633/Zerodha",
     liveUrl: "https://zerodha-375eo5zg1-manishs-projects-e32ba696.vercel.app/"
-},
+  },
   {
-    id: 5,
+    id: 6,
     title: "Arihant Marble House",
     description: "A professional business website designed for a marble and granite supplier. Developed using WordPress with custom HTML/CSS/JS for specific interactive elements.",
     technologies: ["WordPress", "HTML", "CSS", "JavaScript"],
@@ -74,15 +84,7 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/manish77633",
     liveUrl: "https://arihantmarblehouse.com/"
   },
-  {
-    id: 6,
-    title: "ATM Management System",
-    description: "A robust console-based banking system using oops concept implements features like withdrawal, deposit, balance etc. Intigrated file handling for persistent data storage",
-    technologies: ["C++", "OOP", "File Handling", "Auth"],
-    imageUrl: "https://images.unsplash.com/photo-1710149459994-480e2b5c3b16?q=80&w=1197&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    githubUrl: "https://github.com/manish77633",
-    liveUrl: ""
-  }
+
 ];
 
 export const EDUCATION: Experience[] = [
