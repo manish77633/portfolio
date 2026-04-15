@@ -63,7 +63,7 @@ export const PROJECTS: Project[] = [
     technologies: ["MongoDB", "Express", "React", "Node.js"],
     imageUrl: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=1000&auto=format&fit=crop",
     githubUrl: "https://github.com/manish77633/wanderlust",
-    liveUrl: "https://wanderlust-k2io.onrender.com/listings"
+    liveUrl: "https://wanderlust-w38u.onrender.com/listings"
   },
 
   {
