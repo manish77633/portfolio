@@ -30,7 +30,16 @@ export const SKILLS = [
 
 export const PROJECTS: Project[] = [
   {
-    id: 1,
+  id: 1,
+  title: "ChatPlug - AI Chatbot Platform",
+  description: "A full-stack SaaS platform to create, train, and embed AI-powered chatbots on any website. Features PDF/URL knowledge base training, RAG-based responses, real-time streaming chat, analytics dashboard, and an embeddable widget script. Built with React, Node.js, MongoDB, and OpenAI.",
+  technologies: ["React", "Node.js", "MongoDB", "Express", "OpenAI", "Tailwind CSS", "Zustand"],
+  imageUrl: "/assets/chatplug-home.png",
+  githubUrl: "https://github.com/manish77633/chatplug-V1",
+  liveUrl: "https://chatplug-v1.vercel.app"
+},
+  {
+    id: 2,
     title: "Aurelia Luxe - Full-Stack E-commerce",
     description: "A dynamic MERN stack e-commerce platform featuring advanced multi-level category filtering and an interactive multi-angle product image gallery. Designed with scalable MongoDB schemas for robust inventory management.",
     technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
@@ -39,7 +48,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://aurelia-beryl.vercel.app"
   },
   {
-    id: 2, // Ya jo bhi next ID ho
+    id: 3, // Ya jo bhi next ID ho
     title: "Velour - Premium E-commerce",
     description: "A high-end fashion e-commerce platform featuring a sleek UI, secure Razorpay payment integration, and Google OAuth. Includes a fully functional admin dashboard for product management, real-time cart updates with Redux Toolkit, and persistent user sessions.",
     technologies: ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit", "Tailwind CSS", "Razorpay"],
@@ -48,7 +57,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://velour-virid.vercel.app"
   },
   {
-    id: 3,
+    id: 4,
     title: "Mockify AI",
     description: "A production-grade SaaS platform for generating deterministic mock API endpoints. Features sub-12ms latency using smart edge-caching and context-aware dataset generation with LLM integration. Includes a premium dashboard with custom schema builders and real-time monitoring.",
     technologies: ["React", "Node.js", "MongoDB", "Gemini/Llama API", "Framer Motion", "Tailwind CSS"],
@@ -57,7 +66,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://mockify-ai-f2ol.vercel.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Wanderlust",
     description: "A full-stack Airbnb-inspired accommodation booking platform. Features include listing creation, map integration, user authentication, and booking management. Built with the MERN stack.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
@@ -67,7 +76,7 @@ export const PROJECTS: Project[] = [
   },
 
   {
-    id: 5, // Id check kar lena sequence ke hisaab se
+    id: 6, // Id check kar lena sequence ke hisaab se
     title: "Zerodha Clone (onworking)",
     description: "A comprehensive stock trading platform clone featuring a professional landing page and a functional trading dashboard. Includes real-time data visualization for holdings/positions, user authentication, and a complete order management system. Built for high performance and responsiveness.",
     technologies: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS", "Axios"],
@@ -76,7 +85,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://zerodha-375eo5zg1-manishs-projects-e32ba696.vercel.app/"
   },
   {
-    id: 6,
+    id: 7,
     title: "Arihant Marble House",
     description: "A professional business website designed for a marble and granite supplier. Developed using WordPress with custom HTML/CSS/JS for specific interactive elements.",
     technologies: ["WordPress", "HTML", "CSS", "JavaScript"],
