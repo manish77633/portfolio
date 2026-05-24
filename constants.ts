@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
   id: 1,
   title: "ChatPlug - AI Chatbot Platform",
   description: "A full-stack SaaS platform to create, train, and embed AI-powered chatbots on any website. Features PDF/URL knowledge base training, RAG-based responses, real-time streaming chat, analytics dashboard, and an embeddable widget script. Built with React, Node.js, MongoDB, and OpenAI.",
-  technologies: ["React", "Node.js", "MongoDB", "Express", "OpenAI", "Tailwind CSS", "Zustand"],
+  technologies: ["React", "Node.js", "MongoDB", "Express", "OpenAI", "Pinecone", "RAG", "Tailwind CSS", "Zustand", "Razorpay"],
   imageUrl: "/assets/chatplug.png",
   githubUrl: "https://github.com/manish77633/chatplug-V1",
   liveUrl: "https://chatplug-v1.vercel.app"
