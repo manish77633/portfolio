@@ -6,7 +6,7 @@ export const NAV_LINKS = [
   { name: 'Education', href: '#experience' },
   { name: 'Projects', href: '#projects' },
   { name: 'Contact', href: '#contact' },
-  { name: 'Resume', href: '/Manish_Kumar_Resume.pdf', download: '' },
+  { name: 'Resume', href: '/ManishResume.pdf', download: '' },
 ];
 
 export const SKILLS = [
