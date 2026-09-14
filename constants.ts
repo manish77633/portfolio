@@ -66,7 +66,37 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://mockify-ai-f2ol.vercel.app/"
   },
   {
-    id: 5,
+  id: 5,
+  title: "Nexvia",
+  description: "A modern animated landing page built to explore motion design and interactive UI effects. Focused on smooth page transitions, scroll-based animations, and engaging visual interactions.",
+  technologies: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Lucide React",
+    "React Intersection Observer"
+  ],
+  imageUrl: "./assets/image.png",
+  githubUrl: "https://github.com/manish77633/nexvia",
+  liveUrl: "https://nexvia-chi.vercel.app/"
+},
+{
+  id: 6,
+  title: "VKA Capital Bridge",
+  description: "A premium business landing page for VKA Capital Bridge, showcasing infrastructure, finance, surety bond, and Dubai real estate advisory services. Designed with a clean, professional interface and responsive layout.",
+  technologies: [
+    "React",
+    "Vite",
+    "CSS",
+    "JavaScript"
+  ],
+  imageUrl: "./assets/vka.png",
+  githubUrl: "https://github.com/manish77633/onepage-",
+  liveUrl: "https://onepage-ashen-pi.vercel.app/"
+},
+  {
+    id: 7,
     title: "Wanderlust",
     description: "A full-stack Airbnb-inspired accommodation booking platform. Features include listing creation, map integration, user authentication, and booking management. Built with the MERN stack.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
@@ -75,17 +105,9 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://wanderlust-w38u.onrender.com/listings"
   },
 
+
   {
-    id: 6, // Id check kar lena sequence ke hisaab se
-    title: "Zerodha Clone (onworking)",
-    description: "A comprehensive stock trading platform clone featuring a professional landing page and a functional trading dashboard. Includes real-time data visualization for holdings/positions, user authentication, and a complete order management system. Built for high performance and responsiveness.",
-    technologies: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS", "Axios"],
-    imageUrl: "https://zerodha.com/static/images/products-kite.png", // Stock Market professional image
-    githubUrl: "https://github.com/manish77633/Zerodha",
-    liveUrl: "https://zerodha-375eo5zg1-manishs-projects-e32ba696.vercel.app/"
-  },
-  {
-    id: 7,
+    id: 8,
     title: "Arihant Marble House",
     description: "A professional business website designed for a marble and granite supplier. Developed using WordPress with custom HTML/CSS/JS for specific interactive elements.",
     technologies: ["WordPress", "HTML", "CSS", "JavaScript"],
