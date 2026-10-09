@@ -46,7 +46,7 @@ export const PROJECTS: Project[] = [
     technologies: ["React", "JavaScript", "CSS"],
     imageUrl: "/assets/ammaai.png",
     githubUrl: "https://github.com/manish77633",
-    liveUrl: "https://ammaai.vercel.app/"
+    liveUrl: "https://hand-craftvercelapp.vercel.app/"
   },
   {
     id: 3,
