@@ -29,8 +29,27 @@ export const SKILLS = [
 ];
 
 export const PROJECTS: Project[] = [
+
   {
     id: 1,
+    title: "DotCom Growth - Digital Marketing Website",
+    description: "A modern digital marketing agency website designed to showcase services, business solutions, and growth-focused strategies through a premium responsive interface. Built to deliver an engaging user experience with clean layouts and strong visual hierarchy.",
+    technologies: ["Next.js", "React", "JavaScript", "Tailwind CSS"],
+    imageUrl: "/assets/dotcom.png",
+    githubUrl: "https://github.com/manish77633",
+    liveUrl: "https://dotcom-growthv1.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "Ammaai - Handicraft Web App",
+    description: "A modern handcraft web application designed to present handmade products and craft-related content through a clean, responsive interface. Built to provide an accessible browsing experience across desktop and mobile devices.",
+    technologies: ["React", "JavaScript", "CSS"],
+    imageUrl: "/assets/ammaai.png",
+    githubUrl: "https://github.com/manish77633",
+    liveUrl: "https://ammaai.vercel.app/"
+  },
+  {
+    id: 3,
     title: "Mittal Sports - Sports Website",
     description: "A modern, responsive sports website designed to deliver an engaging browsing experience with a clean interface, structured content, and mobile-friendly layouts. Built with Next.js to provide a fast and scalable web experience.",
     technologies: ["Next.js", "React", "JavaScript", "Tailwind CSS"],
@@ -39,7 +58,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://mittal-sports.vercel.app/"
   },
   {
-    id: 2,
+    id: 4,
     title: "Uplook Unisex Salon - Salon Website",
     description: "A modern website for a unisex salon, designed to showcase salon services through an elegant interface and a responsive layout. Focused on presenting the salon's brand, improving service discovery, and providing visitors with a smooth browsing experience.",
     technologies: ["Next.js", "React", "JavaScript", "Tailwind CSS"],
@@ -48,7 +67,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://uplooksunisexsalon.vercel.app/"
   },
   {
-    id: 3,
+    id: 5,
     title: "ChatPlug - AI Chatbot Platform",
     description: "A full-stack SaaS platform to create, train, and embed AI-powered chatbots on any website. Features PDF/URL knowledge base training, RAG-based responses, real-time streaming chat, analytics dashboard, and an embeddable widget script. Built with React, Node.js, MongoDB, and OpenAI.",
     technologies: ["React", "Node.js", "MongoDB", "Express", "OpenAI", "Pinecone", "RAG", "Tailwind CSS", "Zustand", "Razorpay"],
@@ -58,7 +77,7 @@ export const PROJECTS: Project[] = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "Aurelia Luxe - Full-Stack E-commerce",
     description: "A dynamic MERN stack e-commerce platform featuring advanced multi-level category filtering and an interactive multi-angle product image gallery. Designed with scalable MongoDB schemas for robust inventory management.",
     technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
@@ -67,7 +86,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://aurelia-beryl.vercel.app"
   },
   {
-    id: 5, // Ya jo bhi next ID ho
+    id: 7, // Ya jo bhi next ID ho
     title: "Velour - Premium E-commerce",
     description: "A high-end fashion e-commerce platform featuring a sleek UI, secure Razorpay payment integration, and Google OAuth. Includes a fully functional admin dashboard for product management, real-time cart updates with Redux Toolkit, and persistent user sessions.",
     technologies: ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit", "Tailwind CSS", "Razorpay"],
@@ -76,7 +95,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://velour-virid.vercel.app"
   },
   {
-    id: 6,
+    id: 8,
     title: "Mockify AI",
     description: "A production-grade SaaS platform for generating deterministic mock API endpoints. Features sub-12ms latency using smart edge-caching and context-aware dataset generation with LLM integration. Includes a premium dashboard with custom schema builders and real-time monitoring.",
     technologies: ["React", "Node.js", "MongoDB", "Gemini/Llama API", "Framer Motion", "Tailwind CSS"],
@@ -85,7 +104,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://mockify-ai-f2ol.vercel.app/"
   },
   {
-    id: 7,
+    id: 9,
     title: "Nexvia",
     description: "A modern animated landing page built to explore motion design and interactive UI effects. Focused on smooth page transitions, scroll-based animations, and engaging visual interactions.",
     technologies: [
@@ -101,7 +120,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://nexvia-chi.vercel.app/"
   },
   {
-    id: 8,
+    id: 10,
     title: "VKA Capital Bridge",
     description: "A premium business landing page for VKA Capital Bridge, showcasing infrastructure, finance, surety bond, and Dubai real estate advisory services. Designed with a clean, professional interface and responsive layout.",
     technologies: [
@@ -115,7 +134,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://onepage-ashen-pi.vercel.app/"
   },
   {
-    id: 9,
+    id: 11,
     title: "Wanderlust",
     description: "A full-stack Airbnb-inspired accommodation booking platform. Features include listing creation, map integration, user authentication, and booking management. Built with the MERN stack.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
@@ -126,7 +145,7 @@ export const PROJECTS: Project[] = [
 
 
   {
-    id: 10,
+    id: 12,
     title: "Arihant Marble House",
     description: "A professional business website designed for a marble and granite supplier. Developed using WordPress with custom HTML/CSS/JS for specific interactive elements.",
     technologies: ["WordPress", "HTML", "CSS", "JavaScript"],
